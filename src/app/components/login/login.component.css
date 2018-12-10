@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+.container-fx {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/images/background-login.jpg"); 
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-box {
+    background: #fff;
+    width: 85%;
+    border-radius: 6px;
+    z-index: 1;
+    margin-left:370px;
+    margin-top:70px;
+}
+
+.content {
+    padding: 30px 30px;    
+}
+  
+.login-header h2 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    background: #5c2022;
+    margin: 0;
+    padding: 30px 40px;
+    border-radius: 5px 5px 0 0;
+    font-weight: normal;
+}
+  
+/* estilo padrão para todos os buttons */
+.btn {
+    border: 1px solid #5c2022;
+    background: transparent;
+    padding: 12px;
+    width: 100%;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 6px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+@media (min-width:425px) {
+    .login-box {
+        width: 350px;
+    }
+
+    .wrap {
+        width: 60%;
+    }
+}
+
+
+/* estilo padrÃ£o dos inputs + animaÃ§Ã£o */
+.placeholder-wrap {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.placeholder-label {
+    position: absolute;
+    top: 50%;
+    margin: -5px 0;
+    color: #696869;
+    font-weight: lighter;
+    font-size: 0.8em;
+    z-index: -1;
+}
+  
+.placeholder-input {
+    width: 100%;
+    border: 0;
+    font-size: 1em;
+    padding: 25px 0 5px;
+    border-bottom: 1px solid #e0e0e0;
+    background: transparent;
+}
+
+.placeholder-input:focus {
+    outline: none;
+    border-bottom: 1px solid #0d0630;
+}
+
+.placeholder-input:valid ~ .placeholder-label, 
+.placeholder-input:focus ~ .placeholder-label {
+    top: 20%;
+    color: #0d0630;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+}
+
+/* estilo padrão dos buttons */
+.btnRoxo {
+    border: 1px solid #0d0630;
+    background: transparent;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+

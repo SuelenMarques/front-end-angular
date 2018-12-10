@@ -1,0 +1,21 @@
+<nav class=" navbar-home navbar navbar-expand-lg navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--   <a class="navbar-brand" id="titulo"> <img [src]="url" [alt]="description" class="img-login"></a> -->
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a [routerLink]="['/login']" class="nav-link" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item">
+                <a [routerLink]="['/extrato']" class="nav-link">Extrato</a>
+            </li>
+            <li class="nav-item">
+                <a [routerLink]="['/transferencia']" class="nav-link">Transferencia</a>
+            </li>
+        </ul>
+    </div>
+</nav>

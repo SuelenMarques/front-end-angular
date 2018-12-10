@@ -1,0 +1,177 @@
+.container-form-transferencia{
+ display: flex;
+ justify-content:center;  
+ align-items: center; 
+ 
+ height: 500px;
+ /* width: 500px;    */
+}
+
+.salvar-contato,.transferencia {
+font-weight: bold;  
+color: gray;  
+}
+
+
+.cadastrados, 
+.outras-contas,
+.instituição,
+.agencia,
+.conta{
+border: none;
+border-bottom: 2px solid #E97911;
+color: gray; 
+background-color: #F8F8F6;    
+}
+
+.conta{
+ width: 120px;   
+}
+.button-continuar-transferencia{
+background-color:#E97911; 
+color: white;
+border-radius: 4px;  
+font-weight: bold;
+width: 300px;
+padding: 5px;
+}
+
+nav {
+    background: #5c2022;
+    margin-left: 110px;
+    width: 100%;
+    margin: 0;
+    color: #fff;    
+    height: 50px;    
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.title-transferencia{
+    text-align: center;
+    font-size: 3em;
+    font-style: normal;
+}
+
+
+.jumbotron {
+    background-image:gray;
+}
+
+
+placeholder-label {
+    position: absolute;
+    top: 50%;
+    margin: -5px 0;
+    color: #696869;
+    font-weight: lighter;
+    font-size: 0.8em;
+    z-index: -1;
+}
+  
+.placeholder-input {
+    width: 100%;
+    border: 0;
+    font-size: 1em;
+    padding: 25px 0 5px;
+    border-bottom: 1px solid #e0e0e0;
+    background: transparent;
+}
+
+.placeholder-input:focus {
+    outline: none;
+    border-bottom: 1px solid #0d0630;
+}
+
+.placeholder-input:valid ~ .placeholder-label, 
+.placeholder-input:focus ~ .placeholder-label {
+    top: 20%;
+    color: #0d0630;
+    transform: translateY(-50%);
+    transition: all 0.3s;
+}
+
+
+/* estilo padrão dos buttons */
+.btnRoxo {
+    border: 1px solid #0d0630;
+    background: transparent;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (min-width:600px) {
+    .title {
+        font-size: 2.2em;
+    }
+
+    .hero {
+        padding: 55px 0;
+    }
+
+    .btn:hover {
+        background: #0d0630;
+        color: #fff;
+        transition: background-color 0.3s ease;
+    }
+
+    .wrap {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+.modal--header h2{
+    background: #5c2022;
+    margin: 0;
+    padding: 30px 40px;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.modal--body {
+    padding: 70px 10px;
+    color: navy;
+    text-align: center;
+    justify-content: center;
+}
+
+.transfer {
+    padding: 0;
+}
+.transfer li {
+    list-style: none;
+    text-align: center;
+}
+
+@media (min-width:600px) {
+
+    .btn:hover {
+        background: #5c2022;
+        color: #fff;
+        transition: background-color 0.3s ease;
+    }
+}
+
+
+
+

@@ -1,0 +1,49 @@
+<nav>
+    <div class="container nav-bar">
+        <h2 id="logo">BanCode</h2>
+        <div class="info">
+            Olá, Suelen Marques! Sair
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <h1 class="title-transferencia">Transferência</h1>
+</div>
+<div class="container wrap">
+    <p>Para realizar uma transferência, preencha os campos abaixo com os dados solicitados.</p>
+
+    <form style="display: inherit">
+        <div class="placeholder-wrap">
+            <input name="conta" type="text" class="placeholder-input" id="conta" placeholder="Insira o nº de conta do destinatário" required autocomplete="off">
+            <!-- <span class="placeholder-label">Conta Destinatário</span> -->
+        </div>
+        <br />
+
+        <div class="placeholder-wrap">
+            <!-- <span class="placeholder-label">Valor R$: </span> -->
+            <input name="senha" type="password" class="placeholder-input" id="senha" placeholder="Valor de transferência R$" required autocomplete="off">
+        </div>
+        <br />
+
+        <div class="placeholder-wrap">
+            <!-- <span class="placeholder-label">Descrição:</span> -->
+            <input name="descricao" type="text" class="placeholder-input" id="descricao" placeholder="Descrição da transação" required autocomplete="off">
+        </div>
+        <br />
+
+        <button type="submit" class="btnRoxo btn-submit" data-toggle="modal" data-target="#modalTransferencia">Realizar transferência
+        </button>
+    </form>
+
+    <div class="modal fade" id="sucesso" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal--body">
+                    <p>Transação realizada com sucesso!</p>
+                    <img width="60" src="../assets/images/Orion_checkbox-confirm-circle (1).svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
